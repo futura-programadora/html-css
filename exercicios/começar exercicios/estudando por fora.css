@@ -1,0 +1,21 @@
+div {
+    margin: auto;/*espaço vazio ao redor, margem*/
+    width: 200px; /*largura*/
+    height: 200px;/*autura*/
+    border: 1px solid #333;/*estilo, largura, cor da borda*/
+    transition: all 0.4s;/*efeito de transição suave*/
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.336); /*sombra */
+}
+
+input {
+    display:block;
+    margin: 10px auto;/*espaço ao redor*/
+    border-radius: 10px;/*arrendodar os cantos*/
+    height: 30px;/*altura*/
+}
+
+p {
+    text-align: center;/*centralizar os textos*/
+    font-family: Arial, Helvetica, sans-serif;/*fontes*/
+}
+

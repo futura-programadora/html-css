@@ -1,0 +1,42 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/danim/OneDrive/%C3%81rea%20de%20Trabalho/Nova%20pasta/aula%2004/ex006/ex0010%20fun%C3%A7%C3%B5es%20para%20mouse.html
+Subject: eventos DOM
+Date: Tue, 16 Apr 2024 19:05:48 -0300
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--c31XyaAUj0gCGiDEjxqNea3xwL1yLzXZi52wzvaa5j----"
+
+
+------MultipartBoundary--c31XyaAUj0gCGiDEjxqNea3xwL1yLzXZi52wzvaa5j----
+Content-Type: text/html
+Content-ID: <frame-A6295F8C284745AEBEAAA916E44B9927@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/danim/OneDrive/%C3%81rea%20de%20Trabalho/Nova%20pasta/aula%2004/ex006/ex0010%20fun%C3%A7%C3%B5es%20para%20mouse.html
+
+<!DOCTYPE html><html lang=3D"pt-br"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-b868c044-825c-43e0-adf1-ed29b825725c@mhtml.blink" /=
+>
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>eventos DOM</title>
+   =20
+</head>
+<body>
+    <div id=3D"area" style=3D"background: green;">saiu!</div>
+
+   =20
+
+</body></html>
+------MultipartBoundary--c31XyaAUj0gCGiDEjxqNea3xwL1yLzXZi52wzvaa5j----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b868c044-825c-43e0-adf1-ed29b825725c@mhtml.blink
+
+@charset "utf-8";
+
+div#area { font: 15pt / 200px arial; background-color: aqua; color: rgb(1, =
+11, 7); width: 200px; height: 200px; text-align: center; }
+------MultipartBoundary--c31XyaAUj0gCGiDEjxqNea3xwL1yLzXZi52wzvaa5j------

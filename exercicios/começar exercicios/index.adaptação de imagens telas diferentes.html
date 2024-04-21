@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamanhos de img para telas diferentes</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes.</p>
+
+    <picture><!--colocar no menor para o maior sempre...-->
+        <source media="(max-width: 750px)" srcset="img.P.png" type="image/png"><!--colocar 50px a mais para não ativar a rolagem lateral-->
+        <source media="(max-width: 1050px)" srcset="img.M.png" type="image/png">
+        <img src="img.G.png" alt="imagem G">
+    </picture>
+    <h1>adicionando mídias</h1>
+    <audio src="podquest.guanabara.mp3" controls autoplay loop></audio><!--melhor opção para mim.-->
+    <audio preload="metadata" autoplay controls>
+        <source src="podquest.guanabara.mp3" type="mpeg">
+        <source src="podquest.guanabara.ogg" type="audio/ogg">
+        <source src="podquest.guanabara.wav" type="audio/wav">
+        <p>infelizmente seu navegador não é compativel <a href="podquest.guanabara.mp3">baixe aqui o podcast em mp3</a></p>
+    </audio>
+</body>
+</html>
