@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de funto em componentes.</title>
+    <style>
+        body {
+            background-image:url('imagens/wallpaper004.jpg'); /*pode ser usada para colocar imagen no fundo*/
+        }
+
+        div.quadrado {
+            display: inline-block;/*alinhar as divs na mesma linha*/
+            border: 1px solid black;/*borda*/
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            background-color: gray;
+        }
+        div#q1 {
+            background-color: pink;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, pink, purple);
+            /*linear-gradiente serve para fazer um degrade, da primeira cor até a ultima cor que você selecionar*/
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern003.png');/*url com aspas simples ou duplas para adicionar imagens no fundo.*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
