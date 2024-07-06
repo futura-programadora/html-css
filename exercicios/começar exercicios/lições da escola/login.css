@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a5dbf;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px; /* Aumentado de 20px para 40px */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+    max-width: 350px; /* Tamanho máximo ajustado para um melhor layout */
+    width: 100%; /* Garante que a largura seja responsiva */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Aumentei o espaçamento para mais clareza */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Aumentei o padding para melhorar a interação */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Padding aumentado para um melhor visual e sensação tátil */
+    background-color: #7a5dbf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #684aa8;
+}
+
+#error-message {
+    color: red;
+}
